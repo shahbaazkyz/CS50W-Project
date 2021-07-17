@@ -1,0 +1,262 @@
+img { max-width: 100%; }
+@media (min-width:768px){
+  #pic{
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+  
+  }
+  .khulja{
+    text-align: center;
+  }
+  .contacts{
+    position: absolute;
+    top: 10%;
+    visibility: hidden;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 1;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    float: right;
+    margin-top: 5pt;
+    height: 10vh;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    float: right;
+    margin-top: 5pt;
+    height: 10vh;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    float: right;
+    margin-top: 5pt;
+    height: 10vh;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+      height: 10vh;
+    background: #55ACEE;
+    color: white;
+    float: right;
+    margin-top: 5pt;
+  }
+  .logo{
+    padding: 20px;
+    flex-wrap: wrap;
+    float: left;
+    }
+  
+  .dropbtn{
+    float: left;
+    visibility: hidden;
+  }
+.topnav a {
+  font-weight: lighter;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  float: left;
+  height: 10vh;
+  margin-top: 10pt;
+  color: #f2f2f2;
+  padding: 15px ;
+  text-decoration: none;
+  font-size: 22px;
+  align-items: center;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(145, 145, 245);
+  color: white;
+      }
+      .topnav{
+        float: right;
+    }
+  
+      /* Add a color to the active/current link */
+    .active {
+  background-color: rgb(145, 145, 245);
+  color: white;
+      }
+      .row > div{
+        margin-left: 15%;
+        margin-top: 10pt;
+          color: rgb(0, 0, 0);
+          
+          font-weight: lighter;
+          font-size: 26px;
+          text-align: justify;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         }
+}
+@media (max-width:768px){
+  
+.row > div{
+  margin-left: 20%;
+  margin-top: 10pt;
+    color: rgb(0, 0, 0);
+    
+    font-weight: lighter;
+    font-size: 26px;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+  #pic{
+    margin-left: 0%;
+  
+  }
+  .contacts {
+    background-color: rgb(81, 220, 238);
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    
+    margin-left: 1pt;
+    border: none;}
+  
+    
+  
+  /* Dropdown Button */
+
+
+/* The container <div> - needed to position the dropdown content */
+.khulja {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.btncontent {
+  background-color: #77c3e7;
+  min-width: 180px;
+  position: fixed;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(206, 6, 6, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.btncontent a {
+  color: rgb(19, 19, 19);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.btncontent a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.khulja:hover .btncontent {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.khulja:hover .contacts {background-color: rgb(81, 220, 238);}
+
+
+
+  /*yahan tk add kiya he*/
+  .logo{
+    position: absolute;
+    left: 40%;
+    top: 5%;
+  }
+    .dropbtn {
+    background-color: rgb(81, 220, 238);
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    position: relative;
+    float: left;
+    margin-left: 1pt;
+    border: none;
+  }
+  
+    
+  
+  /* Dropdown Button */
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  background-color: #77c3e7;
+  min-width: 160px;
+  position: fixed;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(206, 6, 6, 0.2);
+  z-index: 1;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(19, 19, 19);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.active {
+  background-color: rgb(145, 145, 245);
+  color: white;
+}
+
+}
+
+       table {
+        border: 5px solid blueviolet;
+        border-collapse: collapse;
+        width: auto;
+        overflow-x: auto;
+        
+    }
+
+    th, td  {
+      border: 5px solid whitesmoke;
+      padding: 5px;
+
+      border-spacing: 50px;
+      text-align: center;
+      margin: auto;
+      vertical-align: center;
+      }
+
+    th {
+        height: 80px; 
+      
+      }
+      .scrollit {
+        overflow-x: auto; }
